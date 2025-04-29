@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <title>Sales Team - College project</title>
+    <link rel="icon" type="image/x-icon" href="/images/diamond.ico">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-inner">
+          <div class="header-left">
+            <img src="/images/diamond.png" alt="logo" class="logo" width="100" height="100">
+            <nav class="navleft">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+              </ul>
+            </nav>
+          </div>
+    
+          <div class="header-right">
+            <nav class="navright">
+              <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+              </ul>
+            </nav>
+            <button class="btn" onclick="scrollToBottom()">Scroll to bottom</button>
+          </div>
+        </div>
+      </header>
+
+      <section id="hero">
+        <div class="hero-container">
+          <h1 class="hero-title">Power Up Your Sales Workflow</h1>
+          <p class="hero-description">
+            Our intuitive sales software helps teams close deals faster, manage leads efficiently, and drive revenue growth — all in one simple platform.
+          </p>
+      
+          <!-- Video iframe -->
+          <div class="hero-video">
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=-ERgzs15YpanNglC" 
+                    title="Sales software demo" 
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+          </div>
+      
+          <!-- Features -->
+          <div class="features">
+            <div class="feature-box">
+              <h3>Lead Management</h3>
+              <p>Track, qualify, and convert leads effortlessly with real-time analytics.</p>
+            </div>
+            <div class="feature-box">
+              <h3>Performance Insights</h3>
+              <p>Visualize team performance and identify bottlenecks using clear dashboards.</p>
+            </div>
+            <div class="feature-box">
+              <h3>Easy Integration</h3>
+              <p>Connect your CRM or tools easily with our no-fuss integration modules.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    <footer>
+        <div class="footer-content">
+            <ul>
+                <li>We highly appreciate</li>
+                <li>That you spend time</li>
+                <li>Scrolling our website</li>
+                <li>We would love to cooperate</li>
+                <li>And sell your cookies</li>
+            </ul>
+            <p>Copyright All rights reserved 2025</p>
+        </div>
+    </footer>
+    <script>
+        function scrollToBottom() {
+          window.scrollTo({
+            top: document.body.scrollHeight,
+            behavior: 'smooth'
+          });
+        }
+      </script>
+</body>
+
+</html>
